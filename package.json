@@ -1,0 +1,32 @@
+{
+  "name": "timesink",
+  "version": "0.0.1",
+  "description": "Synchronise time between the server and a browser",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stayradiated/timesink.git"
+  },
+  "keywords": [
+    "time",
+    "sync",
+    "synchronisation",
+    "timestamp",
+    "browser"
+  ],
+  "author": "George Czabania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stayradiated/timesink/issues"
+  },
+  "homepage": "https://github.com/stayradiated/timesink",
+  "dependencies": {
+    "jandal": "0.0.10",
+    "sockjs": "~0.3.8",
+    "coffee-scrunch": "~0.1.5",
+    "node-static": "~0.7.3"
+  }
+}
